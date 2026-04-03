@@ -1,0 +1,28 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+---
+
+<section id="top" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"></div>
+  <div class="absolute inset-0 bg-[url('/img/background1.jpg')] bg-cover bg-center opacity-20"></div>
+
+  <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+    <img src="/img/logo_infobillard.png" alt="InfoBillard" class="mx-auto mb-8 w-48 sm:w-64" loading="eager" />
+
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-black text-brand mb-6 tracking-tight">
+      {t.hero.tagline}
+    </h1>
+
+    <p class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+      {t.hero.subtitle}
+    </p>
+
+    <a href="#features" class="inline-flex items-center justify-center text-brand hover:text-brand-light transition-colors animate-bounce">
+      <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </a>
+  </div>
+</section>

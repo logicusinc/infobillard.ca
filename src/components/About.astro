@@ -1,0 +1,52 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+---
+
+<section id="about" class="py-20 bg-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+      <span class="text-white">{t.about.heading} — </span>
+      <span class="text-brand">{t.about.visionLabel}</span>
+      <span class="text-white"> & </span>
+      <span class="text-brand">{t.about.experienceLabel}</span>
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+      <div class="space-y-8">
+        <div>
+          <h3 class="text-xl font-bold text-brand mb-3 border-l-4 border-brand pl-4">{t.about.aboutTitle}</h3>
+          <p class="text-gray-300 leading-relaxed">{t.about.aboutText}</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-brand mb-3 border-l-4 border-brand pl-4">{t.about.visionTitle}</h3>
+          <p class="text-gray-300 leading-relaxed">{t.about.visionText}</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-brand mb-3 border-l-4 border-brand pl-4">{t.about.experienceTitle}</h3>
+          <p class="text-gray-300 leading-relaxed">{t.about.experienceText}</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="bg-gray-900 rounded-xl border border-gray-700 overflow-hidden">
+          <img src="/img/andre_bouffard_gray.png" alt={t.about.presidentName} class="w-full aspect-square object-cover" loading="lazy" />
+          <div class="p-4">
+            <blockquote class="text-sm text-gray-400 italic mb-3 leading-relaxed">"{t.about.presidentQuote}"</blockquote>
+            <p class="font-bold text-white">{t.about.presidentName}</p>
+            <p class="text-brand text-sm">{t.about.presidentRole}</p>
+          </div>
+        </div>
+        <div class="bg-gray-900 rounded-xl border border-gray-700 overflow-hidden">
+          <img src="/img/equipe_gray.png" alt={t.about.teamName} class="w-full aspect-square object-cover" loading="lazy" />
+          <div class="p-4">
+            <blockquote class="text-sm text-gray-400 italic mb-3 leading-relaxed">"{t.about.teamQuote}"</blockquote>
+            <p class="font-bold text-white">{t.about.teamName}</p>
+            <p class="text-brand text-sm">{t.about.teamRole}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,97 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+
+const carouselScreenshots = [
+  { src: '/screenshots/infobillard_principale.png', alt: 'InfoBillard - Game Management' },
+  { src: '/screenshots/infobillard_promotions.png', alt: 'InfoBillard - Promotions' },
+  { src: '/screenshots/infobillard_membres.png', alt: 'InfoBillard - Members' },
+  { src: '/screenshots/infobillard_reservations.png', alt: 'InfoBillard - Reservations' },
+  { src: '/screenshots/infobillard_communications.png', alt: 'InfoBillard - Communications' },
+  { src: '/screenshots/infobillard_loteries_videos.png', alt: 'InfoBillard - Video Lotteries' },
+];
+---
+
+<section id="modules" class="py-20 bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+      <span class="text-white">{t.modules.heading} </span>
+      <span class="text-brand">{t.modules.headingAccent}</span>
+    </h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+      <div class="relative rounded-xl overflow-hidden border border-gray-700">
+        <div id="carousel" class="relative">
+          {carouselScreenshots.map((ss, i) => (
+            <div class:list={['carousel-slide', { hidden: i !== 0 }]} data-index={i}>
+              <img src={ss.src} alt={ss.alt} class="w-full" loading="lazy" />
+            </div>
+          ))}
+        </div>
+        <button id="carousel-prev" class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="Previous">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <button id="carousel-next" class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="Next">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </button>
+        <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+          {carouselScreenshots.map((_, i) => (
+            <button class:list={['carousel-dot w-2.5 h-2.5 rounded-full transition-colors', i === 0 ? 'bg-brand' : 'bg-gray-500']} data-dot={i} aria-label={`Slide ${i + 1}`}></button>
+          ))}
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center">
+        <h3 class="text-2xl font-bold mb-6">
+          <span class="text-white">{t.modules.introTitle} </span>
+          <span class="text-brand">{t.modules.introAccent}</span>
+        </h3>
+        <p class="text-gray-300 text-lg leading-relaxed">{t.modules.introText}</p>
+      </div>
+    </div>
+
+    <h3 class="text-2xl font-bold text-center mb-10">
+      <span class="text-white">{t.modules.differentModules} </span>
+      <span class="text-brand">{t.modules.differentModulesAccent}</span>
+    </h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      {t.modules.items.map((mod) => (
+        <div class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden hover:border-brand/50 transition-all duration-300 group">
+          <div class="overflow-hidden">
+            <img src={`/images/${mod.image}`} alt={mod.title} class="w-full group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+          </div>
+          <div class="p-4">
+            <h4 class="font-bold text-white mb-2">{mod.title}</h4>
+            <p class="text-gray-400 text-sm leading-relaxed">{mod.text}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <p class="text-center text-brand font-semibold">* {t.modules.optionalNote}</p>
+  </div>
+</section>
+
+<script>
+  const slides = document.querySelectorAll('.carousel-slide');
+  const dots = document.querySelectorAll('.carousel-dot');
+  let current = 0;
+  const total = slides.length;
+
+  function goTo(index: number) {
+    slides[current].classList.add('hidden');
+    dots[current].classList.remove('bg-brand');
+    dots[current].classList.add('bg-gray-500');
+    current = (index + total) % total;
+    slides[current].classList.remove('hidden');
+    dots[current].classList.remove('bg-gray-500');
+    dots[current].classList.add('bg-brand');
+  }
+
+  document.getElementById('carousel-prev')?.addEventListener('click', () => goTo(current - 1));
+  document.getElementById('carousel-next')?.addEventListener('click', () => goTo(current + 1));
+  dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+  setInterval(() => goTo(current + 1), 5000);
+</script>

@@ -1,0 +1,236 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "locale": "fr-CA",
+  "switchLang": "en",
+  "switchLabel": "English",
+  "switchUrl": "/en/",
+
+  "meta": {
+    "title": "InfoBillard | Logiciel de gestion pour salles de billard, simulateurs de golf et centres d'amusement",
+    "description": "InfoBillard est le logiciel le plus complet pour la gestion des salles de billard, simulateurs de golf, consoles de jeux, centres d'amusement, snooker, fléchettes et plus.",
+    "keywords": "billard, logiciel billard, gestion salle de billard, simulateur de golf, console de jeux, centre d'amusement, snooker, fléchettes, poker, logiciel pool"
+  },
+
+  "nav": {
+    "home": "Accueil",
+    "software": "Le logiciel",
+    "about": "Qui sommes-nous",
+    "modules": "Modules",
+    "controls": "Contrôles",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "tagline": "PARTEZ GAGNANT!",
+    "subtitle": "Logiciel pour la gestion des salles et salons de billard, consoles de jeux et centres d'amusement"
+  },
+
+  "features": {
+    "heading": "LE LOGICIEL",
+    "headingAccent": "INFOBILLARD",
+    "items": [
+      {
+        "title": "Logiciel",
+        "titleAccent": "INFOBILLARD",
+        "text": "InfoBillard est le plus complet des logiciels de gestion de la facturation reliée aux salons de billard, simulateurs de golf, consoles de jeux vidéo, arcade, centre d'amusement, snooker, fléchettes, poker, kyo, soccer, air-hockey et autres. Permet de gérer l'ensemble des activités des membres et des non-membres."
+      },
+      {
+        "title": "Entièrement",
+        "titleAccent": "PARAMÉTRABLE",
+        "text": "Infobillard permet une multitude de configurations reliées à votre mode de fonctionnement. Promotions, primes, taxes, tarifications, accélération de la facturation et des paiements, ne sont que quelques-unes des fonctionnalités que vous pourrez paramétrer."
+      },
+      {
+        "title": "Créé",
+        "titleAccent": "POUR VOUS",
+        "text": "Infobillard est un logiciel de gestion fiable, rapide et simple à utiliser développé par Logicus Informatique inc., une firme spécialisée dans le développement de solutions logicielles sur mesure depuis 1996. Nous avons compris vos besoins et développé la solution."
+      },
+      {
+        "title": "Constante",
+        "titleAccent": "ÉVOLUTION",
+        "text": "InfoBillard fonctionne sous toutes les versions de Windows, de Windows XP à Windows 10, et est développé à partir des toutes dernières technologies. Nous offrons des solutions technologiques de pointe, évolutives et adaptées à vos besoins."
+      }
+    ],
+    "cta": "Permet de gérer l'ensemble des activités reliées aux locations de jeux des centres d'amusement",
+    "orderBtn": "Commandez maintenant!",
+    "learnBtn": "Informez-vous!",
+    "orderSubject": "Demande du site INFOBILLARD - Commandez maintenant",
+    "learnSubject": "Demande du site INFOBILLARD - Informez-vous",
+    "or": "- ou -"
+  },
+
+  "screenshots": {
+    "badge": "QUELQUES ÉCRANS"
+  },
+
+  "about": {
+    "heading": "QUI SOMMES-NOUS",
+    "visionLabel": "NOTRE VISION",
+    "experienceLabel": "NOTRE EXPÉRIENCE",
+    "aboutTitle": "À propos de nous",
+    "aboutText": "Logicus Informatique, développeur d'InfoBillard, est spécialisée depuis 1996 dans l'analyse, la conception et l'intégration de logiciels sur mesure. Dévouée à la qualité, l'entreprise accorde une grande importance à la conception et au développement de ses logiciels.",
+    "visionTitle": "Notre vision",
+    "visionText": "Innovateurs inspirés, nous nous consacrons au développement à long terme de relations honnêtes et efficaces avec chacun de nos clients, en étant à l'écoute et en offrant un support et un service sans reproche. Chaque client est important.",
+    "experienceTitle": "Notre expérience",
+    "experienceText": "Avec plus d'une trentaine de logiciels développés, nous avons rencontré les gens du milieu du billard et des simulateurs de golf et nous avons su comprendre vos besoins et développer la solution.",
+    "presidentQuote": "VOTRE INTÉRÊT ET VOTRE ENTHOUSIASME POUR NOTRE LOGICIEL INFOBILLARD NOUS STIMULENT ET NOUS POUSSENT À NOUS DÉPASSER DAVANTAGE. COLLABORER AVEC VOTRE ÉQUIPE SERAIT POUR NOUS UN PRIVILÈGE.",
+    "presidentName": "André Bouffard",
+    "presidentRole": "président",
+    "teamQuote": "NOUS AVONS TRAVAILLÉ TRÈS DUR POUR DÉVELOPPER CE LOGICIEL GÉNIAL! CE N'EST PAS SEULEMENT UN OUTIL DE GESTION MAIS AUSSI UNE ÉQUIPE QUI VOUS ACCOMPAGNERA TOUT AU LONG DE L'UTILISATION DE VOTRE LOGICIEL INFOBILLARD.",
+    "teamName": "Équipe",
+    "teamRole": "InfoBillard",
+    "clientsHeading": "NOS",
+    "clientsAccent": "CLIENTS"
+  },
+
+  "slogan": {
+    "line1": "Permet une multitude de configurations",
+    "line2": "reliées à votre mode de fonctionnement!"
+  },
+
+  "modules": {
+    "heading": "CONFIGURATIONS /",
+    "headingAccent": "MODULES",
+    "introTitle": "INTRODUCTION",
+    "introAccent": "AUX MODULES D'INFOBILLARD",
+    "introText": "Fonctionnant sous Windows, à partir d'une souris ou d'un écran tactile, InfoBillard permet de gérer la facturation et l'ensemble des activités des membres et non-membres reliés aux locations de jeux. INFOBILLARD est entièrement configurable. Les modules InfoBillard vous feront économiser temps et argent tout en améliorant votre service à la clientèle.",
+    "differentModules": "LES DIFFÉRENTS",
+    "differentModulesAccent": "MODULES",
+    "optionalNote": "indique les modules disponibles en option.",
+    "clickToEnlarge": "Cliquez sur la capture d'écran pour l'agrandir",
+    "items": [
+      {
+        "title": "GESTION DE JEUX",
+        "image": "infobillard_jeux.jpg",
+        "text": "Le contrôle de 1 à 256 jeux; la gestion des réservations et des notes; la facturation selon vos critères de tarification; la facturation individuelle ou de groupe; un nombre illimité de types de jeux; la gestion de la sécurité et des mots de passe; la gestion de locations; la gestion des dépôts; la gestion de la liste d'attente; la gestion des primes et encore plus..."
+      },
+      {
+        "title": "PROMOTIONS *",
+        "image": "infobillard_promotions.jpg",
+        "text": "Modifier le tarif régulier des joutes ou des produits; créer des promotions pour du temps gratuit ou pour l'augmentation des points primes; gérer les périodes effectives des promotions; activer automatiquement une promotion selon une période donnée et encore plus..."
+      },
+      {
+        "title": "MEMBRES *",
+        "image": "infobillard_membres.jpg",
+        "text": "Fiche des membres avec photos; prise de photos par Webcam; identifiant des membres avec code barres; gestion de membres indésirables; types de membres avec ou sans escomptes; gestion des abonnements; banque d'heures; historique des membres; envois de promotions par publipostage ou courriel et encore plus..."
+      },
+      {
+        "title": "PRODUITS *",
+        "image": "infobillard_produits.jpg",
+        "text": "Gestion d'un nombre illimité de catégories et de produits; gestion de l'inventaire; gestion des quantités minimum; ajout d'escompte en pourcentage ou en argent; facturation aux membres; facturation à la table; redistribution des produits lors de la facturation et encore plus..."
+      },
+      {
+        "title": "RÉSERVATIONS *",
+        "image": "infobillard_reservations.jpg",
+        "text": "Gestion des réservations par jour, semaine ou mois à partir d'un calendrier; types de réservation avec gestion des couleurs; réservation pour membres ou non-membres; notes reliées aux réservations et encore plus..."
+      },
+      {
+        "title": "COMMUNICATIONS *",
+        "image": "infobillard_communications.jpg",
+        "text": "Publipostage avec documents Word ou pages HTML; fusion des membres selon des filtres; gestion des listes et documents envoyés; vérification des coordonnées incomplètes; impression d'étiquettes d'adresse et encore plus..."
+      },
+      {
+        "title": "LOTERIES VIDÉOS *",
+        "image": "infobillard_loterie_video.jpg",
+        "text": "Création des appareils et de leurs vignettes; saisie des montants payés par paiement et par appareil; transactions en lot pour un groupe d'appareils; impression de rapports et des paiements sur le rapport X ou Z de caisse et encore plus..."
+      },
+      {
+        "title": "MEV * (Québec)",
+        "image": "infobillard_mev.jpg",
+        "text": "Le module d'enregistrement des ventes (MEV) est l'appareil sur lequel repose la solution technologique retenue par Revenu Québec dans le secteur de la restauration. Le module MEV d'InfoBillard permettra la communication entre notre logiciel et l'appareil de Revenu Québec."
+      }
+    ]
+  },
+
+  "controlsSlogan": {
+    "line1": "MAINTENANT - Trois choix de contrôle pour",
+    "line2": "l'ouverture et fermeture des lampes (lumières)",
+    "line3": "des tables ou l'ouverture et fermeture des jeux!"
+  },
+
+  "controls": {
+    "heading": "CONTRÔLES",
+    "headingAccent": "DES LUMIÈRES ET DES JEUX",
+    "orderNow": "COMMANDEZ INFOBILLARD DÈS MAINTENANT!",
+    "inquireBtn": "INFORMEZ-VOUS!",
+    "items": [
+      {
+        "title": "Contrôle - Courants porteurs",
+        "subtitle": "Caractéristiques",
+        "recommended": false,
+        "features": [
+          "Installation simple",
+          "Ordres de type marche ou arrêt",
+          "230 V ou 120 V selon les pays",
+          "50 Hz ou 60 Hz selon les pays",
+          "Branchement par USB"
+        ],
+        "subject": "Demande du site INFOBILLARD - Contrôle - Courants porteurs"
+      },
+      {
+        "title": "Contrôle - Filaires",
+        "subtitle": "Caractéristiques",
+        "recommended": true,
+        "recommendedLabel": "RECOMMANDÉ",
+        "features": [
+          "Installation simple",
+          "Ordres de type marche, arrêt",
+          "230 V ou 120 V selon les pays",
+          "50 Hz ou 60 Hz selon les pays",
+          "Boîtes filaires avec relais",
+          "Câblage réseau nécessaire"
+        ],
+        "subject": "Demande du site INFOBILLARD - Contrôle - Filaire"
+      },
+      {
+        "title": "Contrôle - Ondes radio",
+        "subtitle": "Caractéristiques",
+        "recommended": false,
+        "features": [
+          "Installation simple",
+          "Ordres de type marche, arrêt et variation",
+          "230 V ou 120 V selon les pays",
+          "50 Hz ou 60 Hz selon les pays",
+          "Branchement par RS-232",
+          "Ou convertisseur RS-232 à USB"
+        ],
+        "subject": "Demande du site INFOBILLARD - Contrôle - Onde radio"
+      }
+    ]
+  },
+
+  "contact": {
+    "heading": "CONTACTS",
+    "headingAccent": "COORDONNÉES",
+    "testimonialsTitle": "Commentaires clients",
+    "testimonials": [
+      {
+        "text": "Merci pour vos efforts, votre patience et surtout d'avoir livré la marchandise!!!",
+        "author": "Mirko Bonneville, propriétaire Hot Dog Café"
+      },
+      {
+        "text": "Le logiciel InfoBillard est super facile à utiliser et le support est parfait.",
+        "author": "Caitlin Desson, Forum-Montréal"
+      },
+      {
+        "text": "Votre logiciel couvre tous les aspects d'un centre sportif, le support est excellent, le contact professionnel et courtois.",
+        "author": "Edouard Arcan, Le bistrogolf"
+      }
+    ],
+    "regionLabel": "AMÉRIQUE DU NORD ET AUTRES",
+    "companyLabel": "Entreprise",
+    "tollFree": "Sans frais",
+    "phone": "Téléphone",
+    "partnersTitle": "Partenaires revendeurs",
+    "partners": [
+      { "region": "CANADA - QUÉBEC", "company": "Logipro", "url": "https://www.logipos.ca/", "phone": "819-772-8787" },
+      { "region": "EUROPE - ESPAGNE", "company": "Precision et Perfection SL", "url": "http://www.theworldbilliards.com/", "phone": "+34 910 583 171" },
+      { "region": "EUROPE - PORTUGAL", "company": "Notable Award Lda", "url": "http://www.theworldbilliards.com/", "phone": "+351 219 617 862" },
+      { "region": "EUROPE - BELGIQUE ET LUXEMBOURG", "company": "Segma", "url": "http://www.segma.eu/", "phones": ["+32 (0)2/888 16 21", "+352/26 37 55 50"] }
+    ]
+  },
+
+  "footer": {
+    "copyright": "Développé et hébergé par: LOGICUS INFORMATIQUE INC. Tous droits réservés."
+  }
+}

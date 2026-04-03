@@ -1,0 +1,54 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+
+const icons = [
+  '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>',
+  '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>',
+  '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"/></svg>',
+  '<svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>',
+];
+---
+
+<section id="features" class="relative py-20 bg-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl sm:text-4xl font-bold text-center mb-16">
+      <span class="text-white">{t.features.heading} </span>
+      <span class="text-brand">{t.features.headingAccent}</span>
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+      {t.features.items.map((item, i) => (
+        <div class="group text-center p-6 rounded-xl bg-gray-900/50 border border-gray-700 hover:border-brand/50 transition-all duration-300">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand/10 text-brand mb-4 group-hover:bg-brand group-hover:text-white transition-colors">
+            <Fragment set:html={icons[i]} />
+          </div>
+          <h3 class="text-lg font-bold mb-3">
+            <span class="text-brand">{item.title} </span>
+            <span class="text-white">{item.titleAccent}</span>
+          </h3>
+          <p class="text-gray-400 text-sm leading-relaxed">{item.text}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="bg-gray-900 rounded-xl p-8 text-center border border-gray-700">
+      <p class="text-lg mb-6">
+        <span class="text-brand font-bold">INFOBILLARD</span>
+        <span class="text-gray-300"> — {t.features.cta}</span>
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href={`mailto:info@infobillard.ca?subject=${encodeURIComponent(t.features.orderSubject)}`}
+           class="px-8 py-3 bg-brand hover:bg-brand-dark text-white font-bold rounded-lg transition-colors">
+          {t.features.orderBtn}
+        </a>
+        <span class="text-gray-500">{t.features.or}</span>
+        <a href={`mailto:info@infobillard.ca?subject=${encodeURIComponent(t.features.learnSubject)}`}
+           class="px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg transition-colors">
+          {t.features.learnBtn}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

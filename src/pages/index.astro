@@ -1,0 +1,27 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Nav from '@/components/Nav.astro';
+import Hero from '@/components/Hero.astro';
+import Features from '@/components/Features.astro';
+import Screenshots from '@/components/Screenshots.astro';
+import About from '@/components/About.astro';
+import Clients from '@/components/Clients.astro';
+import Modules from '@/components/Modules.astro';
+import Controls from '@/components/Controls.astro';
+import Contact from '@/components/Contact.astro';
+import { getTranslations } from '@/i18n';
+
+const t = getTranslations('fr');
+---
+
+<Layout t={t}>
+  <Nav t={t} />
+  <Hero t={t} />
+  <Features t={t} />
+  <Screenshots t={t} />
+  <About t={t} />
+  <Clients t={t} />
+  <Modules t={t} />
+  <Controls t={t} />
+  <Contact t={t} />
+</Layout>

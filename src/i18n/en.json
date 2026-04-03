@@ -1,0 +1,236 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "locale": "en",
+  "switchLang": "fr",
+  "switchLabel": "Français",
+  "switchUrl": "/",
+
+  "meta": {
+    "title": "InfoBillard | Billiard software for managing pool halls, golf simulators and gaming centers",
+    "description": "InfoBillard is the most complete software for managing billiard rooms, golf simulators, video gaming consoles, arcade, party centers, snooker, darts and more.",
+    "keywords": "pool room software, billiards software, billiard management software, pool management software, golf simulator, video gaming consoles, arcade, party center, snooker, darts, poker"
+  },
+
+  "nav": {
+    "home": "Home",
+    "software": "The Software",
+    "about": "About Us",
+    "modules": "Modules",
+    "controls": "Controls",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "tagline": "COME OUT A WINNER!",
+    "subtitle": "Software for managing billiard rooms and gaming centers"
+  },
+
+  "features": {
+    "heading": "THE SOFTWARE",
+    "headingAccent": "INFOBILLARD",
+    "items": [
+      {
+        "title": "Software",
+        "titleAccent": "INFOBILLARD",
+        "text": "InfoBillard is the most complete billiards management software for pool halls, golf simulators, snooker, darts, poker, kyo, soccer, air hockey, video gaming consoles, arcade, party centers and more. Manage billing and all activities for members and non-members related to game rentals."
+      },
+      {
+        "title": "Fully",
+        "titleAccent": "CUSTOMIZABLE",
+        "text": "INFOBILLARD allows multiple configurations specific to your operation. Promotions, premiums, taxes, tariffs, faster billing and payments are just some of the features you can set. You can also control the opening and closing of lamps and games with three types of controls."
+      },
+      {
+        "title": "Created",
+        "titleAccent": "FOR YOU",
+        "text": "INFOBILLARD is a reliable, fast, and easy-to-use management software developed by Logicus Informatique inc., a company specializing in custom software solutions since 1996. We understood your needs and built the solution."
+      },
+      {
+        "title": "Constantly",
+        "titleAccent": "IMPROVING",
+        "text": "INFOBILLARD runs on all Windows versions from Windows XP to Windows 10 and is built using the latest technologies. We offer cutting-edge, scalable technology solutions tailored to meet your most demanding requirements."
+      }
+    ],
+    "cta": "Manage all activities related to game rentals in entertainment centers",
+    "orderBtn": "Order now!",
+    "learnBtn": "Learn more!",
+    "orderSubject": "Request from InfoBillard Website - Order now",
+    "learnSubject": "Request from InfoBillard Website - Learn more",
+    "or": "- or -"
+  },
+
+  "screenshots": {
+    "badge": "SOME SCREENS"
+  },
+
+  "about": {
+    "heading": "ABOUT US",
+    "visionLabel": "OUR VISION",
+    "experienceLabel": "OUR EXPERIENCE",
+    "aboutTitle": "About us",
+    "aboutText": "Logicus Informatique, developer of InfoBillard, has specialized since 1996 in the analysis, design, and integration of custom software. Committed to quality, the company places great importance on the design and development of its software.",
+    "visionTitle": "Our vision",
+    "visionText": "Inspired innovators, we are dedicated to building long-term, honest, and effective relationships with each of our clients, by listening and providing flawless support and service. Every client matters.",
+    "experienceTitle": "Our experience",
+    "experienceText": "With over thirty software products developed, we have met the people behind billiard halls and golf simulators, understood your needs, and built the solution.",
+    "presidentQuote": "YOUR INTEREST AND ENTHUSIASM FOR OUR INFOBILLARD SOFTWARE MOTIVATE AND PUSH US TO GO ABOVE AND BEYOND. WORKING WITH YOUR TEAM WOULD BE A PRIVILEGE FOR US.",
+    "presidentName": "André Bouffard",
+    "presidentRole": "President",
+    "teamQuote": "WE WORKED VERY HARD TO DEVELOP THIS AMAZING SOFTWARE! IT'S NOT JUST A MANAGEMENT TOOL — IT'S A TEAM THAT WILL SUPPORT YOU THROUGHOUT YOUR USE OF INFOBILLARD.",
+    "teamName": "InfoBillard",
+    "teamRole": "Team",
+    "clientsHeading": "OUR",
+    "clientsAccent": "CLIENTS"
+  },
+
+  "slogan": {
+    "line1": "Allows a variety of settings",
+    "line2": "related to your management mode!"
+  },
+
+  "modules": {
+    "heading": "SETTINGS /",
+    "headingAccent": "MODULES",
+    "introTitle": "INTRODUCTION",
+    "introAccent": "TO INFOBILLARD MODULES",
+    "introText": "Running on Windows with mouse or touchscreen, InfoBillard manages billing and all member and non-member activities related to game rentals. INFOBILLARD is fully configurable. InfoBillard modules will save you time and money while improving your customer service.",
+    "differentModules": "THE DIFFERENT",
+    "differentModulesAccent": "MODULES",
+    "optionalNote": "indicates modules available as options.",
+    "clickToEnlarge": "Click the screenshot to enlarge",
+    "items": [
+      {
+        "title": "GAME MANAGEMENT",
+        "image": "infobillard_jeux.jpg",
+        "text": "Control 1 to 256 games; manage reservations and notes; billing based on your rate criteria; individual or group billing; unlimited game types; security and password management; rental management; deposit management; waiting list management; premium management and more..."
+      },
+      {
+        "title": "PROMOTIONS *",
+        "image": "infobillard_promotions.jpg",
+        "text": "Modify regular game or product rates; create promotions for free time or bonus points; manage effective promotion periods; automatically activate promotions based on date and time and more..."
+      },
+      {
+        "title": "MEMBERS *",
+        "image": "infobillard_membres.jpg",
+        "text": "Member profiles with photos; webcam photo capture; barcode member identification; unwanted member management; member types with or without discounts; subscription management; hour bank; member history; mail merge promotions and email promotions and more..."
+      },
+      {
+        "title": "PRODUCTS *",
+        "image": "infobillard_produits.jpg",
+        "text": "Unlimited categories and products; inventory management; minimum quantity management; percentage or dollar discounts; member billing; table billing; product redistribution during billing and more..."
+      },
+      {
+        "title": "RESERVATIONS *",
+        "image": "infobillard_reservations.jpg",
+        "text": "Calendar-based reservation management by day, week, or month; reservation types with color coding; reservations for members or non-members; reservation notes and more..."
+      },
+      {
+        "title": "COMMUNICATIONS *",
+        "image": "infobillard_communications.jpg",
+        "text": "Mail merge using Word documents or HTML pages for email; merge member database with filters; manage sent lists and documents; verify incomplete contact information; print address labels and more..."
+      },
+      {
+        "title": "VIDEO LOTTERIES *",
+        "image": "infobillard_loterie_video.jpg",
+        "text": "Create machines and their stickers; enter amounts paid per payment and per machine; batch transactions for groups of machines; print reports and payments on X or Z cash register reports and more..."
+      },
+      {
+        "title": "MEV * (Quebec)",
+        "image": "infobillard_mev.jpg",
+        "text": "The Sales Recording Module (MEV) is the device used by Revenu Québec's technology solution for the restaurant industry. InfoBillard's MEV module enables communication between our software and the Revenu Québec device."
+      }
+    ]
+  },
+
+  "controlsSlogan": {
+    "line1": "NOW — Three control options for",
+    "line2": "opening and closing the lamps (lights)",
+    "line3": "on your tables or turning games on and off!"
+  },
+
+  "controls": {
+    "heading": "CONTROLS",
+    "headingAccent": "FOR LIGHTS AND GAMES",
+    "orderNow": "ORDER INFOBILLARD NOW!",
+    "inquireBtn": "LEARN MORE!",
+    "items": [
+      {
+        "title": "Powerline Control",
+        "subtitle": "Features",
+        "recommended": false,
+        "features": [
+          "Simple installation",
+          "On/off commands",
+          "230 V or 120 V depending on country",
+          "50 Hz or 60 Hz depending on country",
+          "USB connection"
+        ],
+        "subject": "Request from InfoBillard Website - Powerline Control"
+      },
+      {
+        "title": "Wired Control",
+        "subtitle": "Features",
+        "recommended": true,
+        "recommendedLabel": "RECOMMENDED",
+        "features": [
+          "Simple installation",
+          "On/off commands",
+          "230 V or 120 V depending on country",
+          "50 Hz or 60 Hz depending on country",
+          "Wired relay boxes",
+          "Network cabling required"
+        ],
+        "subject": "Request from InfoBillard Website - Wired Control"
+      },
+      {
+        "title": "Radio Wave Control",
+        "subtitle": "Features",
+        "recommended": false,
+        "features": [
+          "Simple installation",
+          "On/off and dimming commands",
+          "230 V or 120 V depending on country",
+          "50 Hz or 60 Hz depending on country",
+          "RS-232 connection",
+          "Or RS-232 to USB converter"
+        ],
+        "subject": "Request from InfoBillard Website - Radio Wave Control"
+      }
+    ]
+  },
+
+  "contact": {
+    "heading": "CONTACT",
+    "headingAccent": "INFORMATION",
+    "testimonialsTitle": "Client testimonials",
+    "testimonials": [
+      {
+        "text": "Thank you for your efforts, your patience, and above all for delivering the goods!!!",
+        "author": "Mirko Bonneville, owner Hot Dog Café"
+      },
+      {
+        "text": "InfoBillard software is super easy to use and the support is perfect.",
+        "author": "Caitlin Desson, Forum-Montréal"
+      },
+      {
+        "text": "Your software covers all aspects of a sports center, the support is excellent, professional and courteous.",
+        "author": "Edouard Arcan, Le bistrogolf"
+      }
+    ],
+    "regionLabel": "NORTH AMERICA AND OTHER",
+    "companyLabel": "Company",
+    "tollFree": "Toll-free",
+    "phone": "Phone",
+    "partnersTitle": "Reseller partners",
+    "partners": [
+      { "region": "CANADA - QUEBEC", "company": "Logipro", "url": "https://www.logipos.ca/", "phone": "819-772-8787" },
+      { "region": "EUROPE - SPAIN", "company": "Precision et Perfection SL", "url": "http://www.theworldbilliards.com/", "phone": "+34 910 583 171" },
+      { "region": "EUROPE - PORTUGAL", "company": "Notable Award Lda", "url": "http://www.theworldbilliards.com/", "phone": "+351 219 617 862" },
+      { "region": "EUROPE - BELGIUM & LUXEMBOURG", "company": "Segma", "url": "http://www.segma.eu/", "phones": ["+32 (0)2/888 16 21", "+352/26 37 55 50"] }
+    ]
+  },
+
+  "footer": {
+    "copyright": "Developed and hosted by: LOGICUS INFORMATIQUE INC. All rights reserved."
+  }
+}

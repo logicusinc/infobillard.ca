@@ -1,0 +1,53 @@
+---
+import type { TranslationData } from '@/i18n';
+interface Props { t: TranslationData; }
+const { t } = Astro.props;
+
+const clients = [
+  { img: 'forum_gray.png', alt: 'Forum de Montréal' },
+  { img: 'place_biermans_gray.png', alt: 'Place Biermans' },
+  { img: 'golf-o-max-riviera_gray.png', alt: 'Golf-O-Max Riviera' },
+  { img: 'golf-o-max-sherbrooke_gray.png', alt: 'Golf-O-Max Sherbrooke' },
+  { img: 'Golf18-laval_gray.png', alt: 'Golf 18 Laval' },
+  { img: 'golf-o-max-boucherville_gray.png', alt: 'Golf-O-Max Boucherville' },
+  { img: 'diable_gray.png', alt: 'Le Diable' },
+  { img: 'logo_rack_n_roll_gray.png', alt: "Rack 'N' Roll" },
+  { img: 'triangle_gray.png', alt: 'Le Triangle' },
+  { img: 'bogeys_gray.png', alt: "Billard Bogey's" },
+  { img: 'golf18-repentigny_gray.png', alt: 'Golf 18 Repentigny' },
+  { img: 'resto_bar_billard_veilleux.png', alt: 'Resto-Bar Veilleux' },
+  { img: 'logo_terminus_gatineau_gray.png', alt: 'Le Terminus' },
+  { img: 'livoire_gray.png', alt: "Club de billard L'Ivoire" },
+  { img: 'spot_billard_rimouski_gray.png', alt: 'Le Spot Billard' },
+  { img: 'tux_gray.png', alt: 'Billard Le Tux' },
+  { img: 'bistrogolf_gray.png', alt: 'Le Bistrogolf' },
+  { img: 'football_gray.png', alt: 'Football Frenzzy' },
+  { img: 'hot-dog-cafe.png', alt: 'Hot-Dog Cafe' },
+  { img: 'billard_mickys.png', alt: "Billard Micky's" },
+  { img: 'international_billard.png', alt: "L'international Billard" },
+  { img: 'quillorama_de_grand_pre.png', alt: 'Quillorama de Grand Pré' },
+  { img: 'bar_billard_monarque.png', alt: 'Bar Billard Monarque' },
+  { img: 'billard_marseil.png', alt: 'Billard de Marseille' },
+  { img: 'pub-le-scoop-270x150.JPG', alt: 'Pub Le Scoop' },
+  { img: 'bar-studio-molson-ex-270x150.jpg', alt: 'Bar Studio Molson Ex' },
+  { img: 'la-bande-au-coin-270x150.jpg', alt: 'La Bande au Coin' },
+  { img: 'salon-le-sieur-billard-270x150.jpg', alt: 'Salon Le Sieur Billard' },
+  { img: 'tapis-vert-270x150.JPG', alt: 'Tapis Vert' },
+  { img: 'billard-le-toxedo-270x150.jpg', alt: 'Billard Le Tuxedo' },
+];
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+  <h3 class="text-2xl font-bold text-center mb-10">
+    <span class="text-white">{t.about.clientsHeading} </span>
+    <span class="text-brand">{t.about.clientsAccent}</span>
+  </h3>
+
+  <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+    {clients.map((client) => (
+      <div class="bg-gray-900 rounded-lg border border-gray-700 p-2 flex items-center justify-center hover:border-brand/40 transition-colors">
+        <img src={`/img/${client.img}`} alt={client.alt} class="w-full h-auto opacity-70 hover:opacity-100 transition-opacity" loading="lazy" />
+      </div>
+    ))}
+  </div>
+</div>
