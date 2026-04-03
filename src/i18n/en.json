@@ -223,7 +223,7 @@
     "phone": "Phone",
     "partnersTitle": "Reseller partners",
     "partners": [
-      { "region": "CANADA - QUEBEC", "company": "Logipro", "url": "https://www.logipos.ca/", "phone": "819-772-8787" },
+      { "region": "CANADA - QUEBEC", "company": "Lirette MG", "url": "https://www.lirettemg.com/", "phone": "+1 418-942-9257" },
       { "region": "EUROPE - SPAIN", "company": "Precision et Perfection SL", "url": "http://www.theworldbilliards.com/", "phone": "+34 910 583 171" },
       { "region": "EUROPE - PORTUGAL", "company": "Notable Award Lda", "url": "http://www.theworldbilliards.com/", "phone": "+351 219 617 862" },
       { "region": "EUROPE - BELGIUM & LUXEMBOURG", "company": "Segma", "url": "http://www.segma.eu/", "phones": ["+32 (0)2/888 16 21", "+352/26 37 55 50"] }
